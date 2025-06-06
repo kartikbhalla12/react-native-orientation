@@ -1,18 +1,18 @@
-# @kartikbhalla/orientation
+# @kartikbhalla/react-native-orientation
 
 react native orientation library
 
 ## Installation
 
 ```sh
-npm install @kartikbhalla/orientation
+npm install @kartikbhalla/react-native-orientation
 ```
 
 ## Usage
 
 
 ```js
-import { multiply } from '@kartikbhalla/orientation';
+import { multiply } from '@kartikbhalla/react-native-orientation';
 
 // ...
 

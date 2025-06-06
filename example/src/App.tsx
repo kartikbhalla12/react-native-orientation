@@ -1,12 +1,15 @@
 import { Text, View, StyleSheet } from 'react-native';
-import { multiply } from '@kartikbhalla/orientation';
-
-const result = multiply(3, 7);
+import Orientation from '@kartikbhalla/react-native-orientation';
+import { useEffect } from 'react';
 
 export default function App() {
+  useEffect(() => {
+    Orientation.lockToLandscape();
+  }, []);
+
   return (
     <View style={styles.container}>
-      <Text>Result: {result}</Text>
+      <Text>Result: Orientation locked</Text>
     </View>
   );
 }

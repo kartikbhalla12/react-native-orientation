@@ -1,5 +1,5 @@
 {
-  "name": "@kartikbhalla/orientation",
+  "name": "@kartikbhalla/react-native-orientation",
   "version": "0.1.0",
   "description": "react native orientation library",
   "main": "./lib/module/index.js",
@@ -32,7 +32,7 @@
     "!**/.*"
   ],
   "scripts": {
-    "example": "yarn workspace @kartikbhalla/orientation-example",
+    "example": "yarn workspace @kartikbhalla/react-native-orientation-example",
     "test": "jest",
     "typecheck": "tsc",
     "lint": "eslint \"**/*.{js,ts,tsx}\"",

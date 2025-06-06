@@ -2,7 +2,7 @@
   "compilerOptions": {
     "rootDir": ".",
     "paths": {
-      "@kartikbhalla/orientation": ["./src/index"]
+      "@kartikbhalla/react-native-orientation": ["./src/index"]
     },
     "allowUnreachableCode": false,
     "allowUnusedLabels": false,
