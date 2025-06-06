@@ -8,6 +8,4 @@ export interface Spec extends TurboModule {
   isLocked(): Promise<boolean>;
 }
 
-export default TurboModuleRegistry.getEnforcing<Spec>(
-  '@kartikbhalla/react-native-orientation'
-);
+export default TurboModuleRegistry.getEnforcing<Spec>('Orientation');

@@ -12,7 +12,7 @@ class OrientationModule(reactContext: ReactApplicationContext) :
   private var currentLock: Int? = null
 
   companion object {
-    const val NAME = "@kartikbhalla/react-native-orientation"
+    const val NAME = "Orientation"
   }
 
   override fun getName(): String {
