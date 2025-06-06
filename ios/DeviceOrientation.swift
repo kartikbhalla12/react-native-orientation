@@ -2,8 +2,8 @@ import Foundation
 import UIKit
 import React
 
-@objc(DeviceOrientationModule)
-class DeviceOrientationModule: NSObject {
+@objc(DeviceOrientation)
+class DeviceOrientation: NSObject {
 
   private var currentLock: UIInterfaceOrientationMask?
 

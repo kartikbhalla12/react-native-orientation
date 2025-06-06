@@ -1,6 +1,6 @@
 #import <React/RCTBridgeModule.h>
 
-@interface RCT_EXTERN_MODULE(DeviceOrientationModule, NSObject)
+@interface RCT_EXTERN_MODULE(DeviceOrientation, NSObject)
 
 RCT_EXTERN_METHOD(lockToLandscape)
 RCT_EXTERN_METHOD(lockToPortrait)
