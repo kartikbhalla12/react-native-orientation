@@ -7,7 +7,7 @@ import com.facebook.react.module.annotations.ReactModule
 
 @ReactModule(name = DeviceOrientationModule.NAME)
 class DeviceOrientationModule(reactContext: ReactApplicationContext) :
-  NativeOrientationSpec(reactContext) {
+  NativeDeviceOrientationSpec(reactContext) {
 
   private var currentLock: Int? = null
 
