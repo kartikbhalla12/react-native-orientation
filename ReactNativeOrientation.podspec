@@ -13,8 +13,10 @@ Pod::Spec.new do |s|
   s.platforms    = { :ios => min_ios_version_supported }
   s.source       = { :git => "https://github.com/kartikbhalla12/react-native-orientation.git", :tag => "#{s.version}" }
 
-  s.source_files = "ios/**/*.{h,m,mm,cpp}"
+  s.source_files = "ios/**/*.{h,m,mm,cpp,swift}"
   s.private_header_files = "ios/**/*.h"
 
- install_modules_dependencies(s)
+  s.module_name = "DeviceOrientation"
+  
+  install_modules_dependencies(s)
 end

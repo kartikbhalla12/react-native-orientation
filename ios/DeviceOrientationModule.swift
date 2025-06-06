@@ -1,3 +1,7 @@
+import Foundation
+import UIKit
+import React
+
 @objc(DeviceOrientationModule)
 class DeviceOrientationModule: NSObject {
 
