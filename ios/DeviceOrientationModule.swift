@@ -1,5 +1,5 @@
-@objc(OrientationModule)
-class OrientationModule: NSObject {
+@objc(DeviceOrientationModule)
+class DeviceOrientationModule: NSObject {
 
   private var currentLock: UIInterfaceOrientationMask?
 

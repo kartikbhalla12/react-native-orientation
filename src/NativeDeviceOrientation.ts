@@ -8,4 +8,4 @@ export interface Spec extends TurboModule {
   isLocked(): Promise<boolean>;
 }
 
-export default TurboModuleRegistry.getEnforcing<Spec>('Orientation');
+export default TurboModuleRegistry.getEnforcing<Spec>('DeviceOrientation');

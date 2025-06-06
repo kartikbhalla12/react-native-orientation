@@ -1,15 +1,15 @@
 import { Text, View, StyleSheet } from 'react-native';
-import Orientation from '@kartikbhalla/react-native-orientation';
+import DeviceOrientation from '@kartikbhalla/react-native-orientation';
 import { useEffect } from 'react';
 
 export default function App() {
   useEffect(() => {
-    Orientation.lockToLandscape();
+    DeviceOrientation.lockToLandscape();
   }, []);
 
   return (
     <View style={styles.container}>
-      <Text>Result: Orientation locked</Text>
+      <Text>Result: Device Orientation locked</Text>
     </View>
   );
 }

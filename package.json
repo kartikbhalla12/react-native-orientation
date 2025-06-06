@@ -150,7 +150,7 @@
     ]
   },
   "codegenConfig": {
-    "name": "OrientationSpec",
+    "name": "DeviceOrientationSpec",
     "type": "modules",
     "jsSrcsDir": "src",
     "android": {

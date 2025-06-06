@@ -1,25 +1,25 @@
-import OrientationModule from './NativeOrientation';
+import DeviceOrientationModule from './NativeDeviceOrientation';
 
 function lockToLandscape(): void {
-  OrientationModule.lockToLandscape();
+  DeviceOrientationModule.lockToLandscape();
 }
 
 function lockToPortrait(): void {
-  OrientationModule.lockToPortrait();
+  DeviceOrientationModule.lockToPortrait();
 }
 
 function unlockAllOrientations(): void {
-  OrientationModule.unlockAllOrientations();
+  DeviceOrientationModule.unlockAllOrientations();
 }
 
 async function isLocked(): Promise<boolean> {
-  return await OrientationModule.isLocked();
+  return await DeviceOrientationModule.isLocked();
 }
-const Orientation = {
+const DeviceOrientation = {
   lockToLandscape,
   lockToPortrait,
   unlockAllOrientations,
   isLocked,
 };
 
-export default Orientation;
+export default DeviceOrientation;
