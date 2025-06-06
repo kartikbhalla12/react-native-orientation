@@ -78,6 +78,6 @@ dependencies {
 
 react {
   jsRootDir = file("../src/")
-  libraryName = "Orientation"
+  libraryName = "@kartikbhalla/react-native-orientation'"
   codegenJavaPackageName = "com.kartikbhalla.orientation"
 }
